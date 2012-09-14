@@ -13,4 +13,8 @@ public class Test1 {
     public String sayHello(final String who) {
         return "Hello " + who + "!";
     }
+
+    public String sayBye(final String who) {
+        return "Good bye " + who + "!";
+    }
 }
