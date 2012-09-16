@@ -1,0 +1,20 @@
+create table person (
+  oid         serial      primary key,
+  name1       text,
+  name2       text,
+  name3       text,
+  street1     text,
+  street2     text,
+  zip         varchar(10),
+  city        text,
+  state       text,
+  country     country_code,
+  dateOfBirth date,
+  email1      text,
+  email2      text,
+  phone1      text,
+  phone2      text,
+  misc1       text,
+  misc2       text,
+  misc3       text
+);
